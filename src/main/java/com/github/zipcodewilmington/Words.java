@@ -30,7 +30,7 @@ public class Words extends Hangman{
             emptyWord[x] = "_";
         }
         tempEmpty = Arrays.asList(emptyWord);
-        int i = 6;
+        int i = 12;
         while(true) {
             System.out.println(Arrays.toString(emptyWord) + "\nYou have " + i + " tries, type the answer to win");
             String guess = scanner.nextLine();

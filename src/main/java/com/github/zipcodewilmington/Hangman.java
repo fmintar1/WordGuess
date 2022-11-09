@@ -13,7 +13,7 @@ public class Hangman {
     Scanner scanner = new Scanner(System.in);
     Hangman() {
 
-        System.out.println("Welcome to Hangman!\nEnter difficulty level from 1-3\nPRESS 4 AND YOU DIE!");
+        System.out.println("Welcome to Hangman!\nEnter difficulty level from 1-3\nPRESS 4 FOR REAL CHALLENGE!");
         options = scanner.nextInt();
         System.out.println("Good luck! Please use CAPS LOCK");
         difficulty();
